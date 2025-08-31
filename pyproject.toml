@@ -1,0 +1,17 @@
+[project]
+name = "modern-attn"
+version = "0.1.0"
+description = "Modern attention mechanism extraction and analysis tools for transformer models"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "torch>=2.0.0",
+    "transformers>=4.30.0",
+    "spacy>=3.5.0",
+    "scipy>=1.10.0",
+    "numpy>=1.24.0",
+    "scikit-learn>=1.3.0",
+    "tqdm>=4.65.0",
+    "pip>=25.2",
+    "matplotlib>=3.10.5",
+]

@@ -1,6 +1,5 @@
 import subprocess
 import sys
-import os
 
 # Paths
 CONLLU = "UD_German-GSD-master/de_gsd-ud-dev.conllu"

@@ -1,7 +1,7 @@
 import json
 import pickle
 from pathlib import Path
-from typing import List, Dict, Any
+from typing import Any
 
 
 def read_jsonl_or_json(path: str) -> list:

@@ -9,9 +9,6 @@ from transformers import AutoTokenizer, AutoModel
 from utils_io import read_jsonl_or_json, write_pickle
 
 
-SPECIAL_TOKENS = {"[CLS]", "[SEP]", "[PAD]"}
-
-
 def add_special_tokens_if_needed(tokens: List[str], tokenizer) -> List[str]:
     """Ensure [CLS] and [SEP] are present for 'tokens' input mode."""
     tok = list(tokens)

@@ -1,0 +1,25 @@
+{
+  "model": "dkbirkenberger/multilabel-eventbert",
+  "num_layers": 12,
+  "num_heads": 12,
+  "max_length": 160,
+  "device": "cpu",
+  "seed": 42,
+  "n_random": 2,
+  "per_relation": {
+    "amod": {
+      "n_sentences": 20,
+      "ppl_base": 10.687380581909085,
+      "ppl_target": 10.681850356344851,
+      "delta_target": -0.005530225564234215,
+      "delta_random_mean": -0.0013117101621933358,
+      "delta_random_std": 0.005121276245354522,
+      "heads": [
+        [
+          7,
+          6
+        ]
+      ]
+    }
+  }
+}

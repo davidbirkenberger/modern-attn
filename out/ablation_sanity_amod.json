@@ -1,0 +1,25 @@
+{
+  "model": "dbmdz/bert-base-german-cased",
+  "num_layers": 12,
+  "num_heads": 12,
+  "max_length": 160,
+  "device": "cpu",
+  "seed": 42,
+  "n_random": 2,
+  "per_relation": {
+    "amod": {
+      "n_sentences": 30,
+      "ppl_base": 2.172932683162228,
+      "ppl_target": 2.2002329097387823,
+      "delta_target": 0.027300226576554287,
+      "delta_random_mean": 0.0035834546857380634,
+      "delta_random_std": 0.004133416021842917,
+      "heads": [
+        [
+          7,
+          6
+        ]
+      ]
+    }
+  }
+}
